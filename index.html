@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>stony.box</title>
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+</head>
+<body>
+
+<header id="header">
+	<div class="container">
+		<div id="logo">
+			<h1>
+				<a href="/">
+					<img src="stonybox-logo-horizontal-white.png" alt="stony.box" title="stony.box">
+				</a>
+			</h1>
+		</div>
+		<div id="menu-icon"><img src="menu.png" alt="Menu"></div>
+		<nav id="top-nav">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/board/">Image Board</a></li>
+				<li><a href="/Shared/">Files</a></li>
+				<li><a href="/gallery/" class="current">About</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<section id="content">
+	<div class="container">
+		<div id="welcome" class="card">
+			<h2>How stony.box Works</h2>
+			<a href="0.JPG">
+					<img src="0thumb.JPG">
+			</a>
+			<a href="1.JPG">
+					<img src="1thumb.JPG">
+			</a>
+			<a href="2.JPG">
+					<img src="2thumb.JPG">
+			</a>
+			<p>At its core, stony.box is a Raspberry Pi B+ with a WiFi adapter plugged in, hooked up to a battery. Using a special Linux distribution known as PirateBox, stony.box forms a local WiFi network, disconnected from the Internet purposefully to prevent tracking, and to preserve user privacy. PirateBox is designed to be safe and secure. No logins are required, and no user data is logged.</p>
+			<p>The Raspberry Pi is a single-board computer that runs its operating system off of a microSD card. It is extremely portable, and it sips just three watts of power on its own. Additionally connected is a Panda Wireless PAUD-4 802.11b/g/n WiFi adapter which at full power- that is, maximum bandwidth up and down, maximum users connected- uses another three watts of power. Six watts of power plugged into a 12,000 mAh battery, drawing 5V equates to a bare minimum of <strong>10 hours</strong> of battery power for this server, up to 20 hours depending on usage.</p>
+			<p>stony.box is being run by an anonymous Stony Brook University student as an experiment into the world of local networking and technology. They hope that the network will be useful for local anonymous communication and file-sharing.</p>
+		</div>
+	</div>
+</section>
+
+<footer id="about">
+	<div class="container">
+		<p class="to-top"><a href="#header">Back to top</a></p>
+		<h2>About stony.box</h2>
+		<p>stony.box is based on PirateBox. To learn more about PirateBox, visit <a href = 'http://piratebox.cc/'>http://piratebox.cc/</a> on an internet-connected system.</p>
+		<p>PirateBox is designed to be safe and secure. No logins are required and no user data is logged. The system is purposely not connected to the Internet in order to prevent tracking and preserve user privacy.</p>
+		<small>PirateBox is licensed under GPLv3.</small>
+	</div>
+</footer>
+
+</body>
+</html>
